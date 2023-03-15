@@ -1,0 +1,482 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins';
+}
+/* section 1 header   */
+
+section.header {
+    position: sticky;
+    background: transparent !important;
+    width: 100%;
+}
+section.career.h-100vh {
+    margin-top: -69px;
+}
+.header h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+section.footer {
+    margin-top: -150px;
+}
+/* section.footer {
+    margin-top: -120px;
+} */
+/* section 1 start   */
+
+.row.align-items-center.h-100vh {
+    height: calc(100vh);
+}
+
+h4.single-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    color: #5F3A96;
+}
+label.form-check-label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #5F3A96;
+}
+.nxt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+.col-lg-1.align-self-center {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 0.05em;
+    color: #5F3A96;
+    margin-top: -340px;
+}
+.box {
+    border: solid 1px;
+    text-align: center;
+    padding: 27px 9px;
+    border-radius: 46px;
+    width: 82px;
+    float: right;
+}
+
+/* section 1 end */
+
+
+/* Section 2 Start */
+
+.box1 {
+    border: solid 1px #fff;
+    text-align: center;
+    padding: 27px 9px;
+    border-radius: 46px;
+    width: 82px;
+    float: right;
+    color: #fff;
+}
+
+.nxt1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+h4.single-txt1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.col-lg-1.align-self-center.icon-font {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin-top: -287px;
+}
+ label.form-check-label.radio-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    color: #fff;
+}
+.header1 h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+}
+/* Section 2 end */
+
+
+
+/* Section 3 Start */
+.col-lg-1.align-self-center.icon-font1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin-top: -325px; 
+}
+
+/* Section 3 end */
+
+
+/* Section 4 Start */
+.col-lg-1.align-self-center.icon-font4 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin-top: -260px; 
+}
+
+/* Section 4 end */
+
+
+
+
+
+/* Section 5 Start */
+
+
+.col-lg-1.align-self-center.icon-font5 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin-top: -264px;
+}
+
+/* Section 5 end */
+
+
+
+
+
+
+/* congrates Start */
+
+
+
+section.congrates.h-100vh {
+    margin-top: 0px;
+}
+
+.row.align-items-center.cong {
+    height: calc(100vh);
+}
+h4.single-txtc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    color: #942C86;
+}
+p.cong-p {
+    margin: 0;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: rgba(30, 30, 30, 0.49);
+}
+.form-congrates input {
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px #000;
+    width: 526px;
+    padding: 15px 0px;
+    border-radius: 0;
+    transition: 0.5s !important;
+}
+
+.btn-primary {
+    background: linear-gradient(89.84deg, #F0B239 0.13%, #E74643 52.69%, #723690 99.86%);
+    box-shadow: 10px 10px 10px 2px rgb(0 0 0 / 25%);
+    border-radius: 10px 33px;
+    padding: 16px 117px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 60px !important;
+    border: none !important;
+}
+
+p.cong-p1 {
+    margin: 0;
+    padding-top: 34px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: rgba(30, 30, 30, 0.49);
+}
+.form-control:focus {
+    color: #212529;
+    background-color: transparent !important;
+    border-color: #ccc !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+    padding-left: 15px !important;
+    transition: 0.5s !important;
+}
+
+.form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: transparent !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid #fff !important;
+
+}
+.fix .form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: transparent !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid #000 !important;
+}
+.fix .form-check-input:checked[type=radio] {
+    filter: brightness(0) !important;
+}
+/* congrates  end */
+
+
+
+
+/* CAREER  start */
+.row.align-items-center.height {
+    height: 500px;
+    text-align: center;
+}
+
+.col-lg-12.align-self-center {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 97.16%;
+    color: #F5F7F7;
+}
+.accordion-item {
+    background: #FFFFFF;
+    box-shadow: 6px 6px 29px 2px rgb(0 0 0 / 8%);
+    border: none;
+    margin: 16px 0px;
+    padding: 10px 10px;
+}
+
+.accordion-item {
+    border: none;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #5F3A96 !important;
+    font-weight: 600 !important;
+    border-bottom: solid 2px !important;
+    border-radius: 0 !important;
+    background-color:transparent !important;
+}
+.nav-link {
+    padding: 0.5rem 3rem !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 156.7%;
+    text-align: center;
+    color: rgba(30, 30, 30, 0.49) !important;
+}
+h6.mb-2.mt-5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.7%;
+    color: rgba(30, 30, 30, 0.49);
+    padding-top: 50px;
+    padding-bottom: 20px;   
+}
+button.accordion-button.collapsed {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.accordion-button::after {
+    content: "+" !important;
+    right: 31px;
+    font-size: 26px;
+    margin-right: 13px;
+    background-image: none;
+}
+.accordion-button:not(.collapsed)::after{
+    content: "-" !important;
+    right: 31px;
+    font-size: 26px;
+    margin-right: 13px;
+    background-image: none;
+    color: #000;
+}
+button.accordion-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #000000 !important;
+    background: transparent !important;
+}
+button.accordion-button:focus{
+border: none !important;
+}
+
+.accordion-body {
+    margin-top: 20px !important;
+    border: none;
+    width: 96%;
+    margin: auto;
+}
+.row.align-items-center.acco-body {
+    padding: 20px 40px;
+    background: #F5F7F7;
+}
+/* .accordion-header {
+    background: #FFFFFF;
+    box-shadow: 6px 6px 29px 2px rgb(0 0 0 / 8%);
+    border: none;
+    margin: 16px 0px;
+    padding: 10px 10px;
+} */
+
+h4.fix-head-h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #5F3A96;
+    margin: 0;
+}
+button.apply.me-4 {
+    background: linear-gradient(89.84deg, #F0B239 0.13%, #E74643 52.69%, #723690 99.86%);
+    border-radius: 7.3324px 24.1969px;
+    padding: 14px 53px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.5977px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn {
+    width: 40%;
+}
+.share {
+    width: 20%;
+    text-align: right;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+}
+.h6-title h6 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 185.7%;
+    color: #1e1e1e8c;
+}
+.h6-title h6 b {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 185.7%;
+    color: #000;
+    padding-right: 4px;
+}
+.row.align-items-center.mt-4,.row.align-items-center.mt-2{
+    padding: 20px 40px;
+}
+/* CAREER  end */
+
+
+
