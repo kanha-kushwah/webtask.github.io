@@ -16,15 +16,57 @@
 
 <body>
   
-    <form action="process-form.php" method="post">
-      <label for="name">Name:</label>
-      <input type="text" name="name" id="name" required>
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" required>
-      <label for="message">Message:</label>
-      <textarea name="message" id="message" required></textarea>
-      <input type="submit" value="Submit">
-    </form>
+	<h1>Contact Us</h1>
+	<form id="contact-form">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		<br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		<br>
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" rows="5" required></textarea>
+		<br>
+		<input type="submit" value="Send">
+	</form>
+
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script>
+		(function () {
+			// Email address that you want to send the email to
+			var toEmail = "kanhakushwah87@gmail.com";
+
+			// Function to send email when form is submitted
+			var sendEmail = function (event) {
+				event.preventDefault();
+				var name = document.getElementById("name").value;
+				var email = document.getElementById("email").value;
+				var message = document.getElementById("message").value;
+
+				var body = "Name: " + name + "<br>";
+				body += "Email: " + email + "<br>";
+				body += "Message: " + message;
+
+				Email.send({
+					Host: "smtp.gmail.com",
+					Username: "kanhakushwah87@gmail.com",
+					Password: "bvbncwxgkqhgttlm",
+					To: 'kanhakushwah87@gmail.com',
+					From: 'kanhakushwah',
+					Subject: "New Contact Form Submission", 
+					Body: body
+				}).then(function (message) {
+					alert("Email sent successfully!");
+				}).catch(function (error) {
+					alert("Error sending email: " + error);
+				});
+			};
+
+			// Add event listener to form submission
+			var form = document.getElementById("contact-form");
+			form.addEventListener("submit", sendEmail);
+		})();
+	</script>
 
 </body>
 
