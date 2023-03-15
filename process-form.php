@@ -5,7 +5,7 @@
   $message = $_POST['message'];
   
   // Set up the email
-  $to = 'recipient@example.com';
+  $to = 'kanhakushwah87@gmail.com';
   $subject = 'New form submission';
   $headers = "From: $email\r\nReply-To: $email\r\n";
   
