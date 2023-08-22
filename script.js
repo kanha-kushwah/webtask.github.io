@@ -2,7 +2,7 @@ const resume = {
   firstName: 'Kanha',
   lastName: 'Kushwah',
   jobTitle: 'Frontend Developer, Web Devloper',
-  // photo: 'https://avatars.githubusercontent.com/u/47432636?s=460&u=0dd359fdfa1689afcfd1ea9ece1487293ee7c193&v=4',
+  photo: '',
   city: 'Indore',
   postalCode: '452002',
   country: 'India',
