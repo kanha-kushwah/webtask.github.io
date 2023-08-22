@@ -1,13 +1,13 @@
 const resume = {
-  firstName: 'Valentina',
-  lastName: 'Morato',
-  jobTitle: 'Frontend Developer, Chemical Engineer',
-  photo: 'https://avatars.githubusercontent.com/u/47432636?s=460&u=0dd359fdfa1689afcfd1ea9ece1487293ee7c193&v=4',
-  city: 'Medellin',
-  postalCode: '050023',
-  country: 'Colombia',
-  phone: `+573156208581 \n+573113101122`,
-  email: 'vmorato1205@hotmail.com',
+  firstName: 'Kanha',
+  lastName: 'Kushwah',
+  jobTitle: 'Frontend Developer, Web Devloper',
+  // photo: 'https://avatars.githubusercontent.com/u/47432636?s=460&u=0dd359fdfa1689afcfd1ea9ece1487293ee7c193&v=4',
+  city: 'Indore',
+  postalCode: '452002',
+  country: 'India',
+  phone: `+919575032608`,
+  email: 'Kanhakushwah64@gmail.com',
   education: [
     {
       school: 'Universidad Pontificia Bolivariana',
